@@ -39,3 +39,27 @@
 
 # debug information files
 *.dwo
+
+
+
+# ROOT / edm4eic / data
+*.root
+*.edm4eic.root
+*.hepmc
+*.hepmc3
+*.parquet
+*.h5
+
+
+
+# logs
+*.log
+*.out
+*.err
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
