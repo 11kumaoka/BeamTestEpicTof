@@ -1,0 +1,610 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.17.0-14-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/3.31.9/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_93026/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_93026.dir/build.make CMakeFiles/cmTC_93026.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5'
+        Building CXX object CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5 -v -fcoverage-compilation-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5 -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/opt/local/include/EICrecon -I/opt/local/include/EICrecon -I/opt/local/include/eigen3 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        ignoring duplicate directory "/opt/local/include/EICrecon"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/local/include/EICrecon
+         /opt/local/include/eigen3
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward
+         /usr/lib/llvm-20/lib/clang/20/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_93026
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93026.dir/link.txt --verbose=1
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_93026 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_93026
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/local/include/EICrecon]
+          add: [/opt/local/include/eigen3]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/llvm-20/lib/clang/20/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/local/include/EICrecon] ==> [/opt/local/include/EICrecon]
+        collapse include dir [/opt/local/include/eigen3] ==> [/opt/local/include/eigen3]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/llvm-20/lib/clang/20/include] ==> [/usr/lib/llvm-20/lib/clang/20/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/local/include/EICrecon;/opt/local/include/eigen3;/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/llvm-20/lib/clang/20/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_93026/fast]
+        ignore line: [/opt/local/bin/gmake  -f CMakeFiles/cmTC_93026.dir/build.make CMakeFiles/cmTC_93026.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5 -v -fcoverage-compilation-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-Zi9Pu5 -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/opt/local/include/EICrecon -I/opt/local/include/EICrecon -I/opt/local/include/eigen3 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [ignoring duplicate directory "/opt/local/include/EICrecon"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/local/include/EICrecon]
+        ignore line: [ /opt/local/include/eigen3]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/llvm-20/lib/clang/20/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_93026]
+        ignore line: [/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93026.dir/link.txt --verbose=1]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_93026 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_93026] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/llvm-20/bin/../lib] ==> dir [/usr/lib/llvm-20/bin/../lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_93026.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/llvm-20/bin/../lib] ==> [/usr/lib/llvm-20/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-20/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:301 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_46bbf/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_46bbf.dir/build.make CMakeFiles/cmTC_46bbf.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ'
+        Building CXX object CMakeFiles/cmTC_46bbf.dir/src.cxx.o
+        /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_46bbf.dir/src.cxx.o -MF CMakeFiles/cmTC_46bbf.dir/src.cxx.o.d -o CMakeFiles/cmTC_46bbf.dir/src.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ/src.cxx
+        Linking CXX executable cmTC_46bbf
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46bbf.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_46bbf.dir/src.cxx.o -o cmTC_46bbf
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-0KFeeJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib/libX11.so;/opt/software/linux-x86_64_v2/libxext-1.3.6-i7oopdbot36gd7hebhcopj4jzaiojdlv/lib/libXext.so"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_48e70/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_48e70.dir/build.make CMakeFiles/cmTC_48e70.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf'
+        Building CXX object CMakeFiles/cmTC_48e70.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_48e70.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_48e70.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_48e70.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_48e70
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48e70.dir/link.txt --verbose=1
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_48e70.dir/CheckFunctionExists.cxx.o -o cmTC_48e70   -L/opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib  -Wl,-rpath,/opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib:/opt/software/linux-x86_64_v2/libxext-1.3.6-i7oopdbot36gd7hebhcopj4jzaiojdlv/lib /opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib/libX11.so /opt/software/linux-x86_64_v2/libxext-1.3.6-i7oopdbot36gd7hebhcopj4jzaiojdlv/lib/libXext.so
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-haORlf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_0fd8a/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_0fd8a.dir/build.make CMakeFiles/cmTC_0fd8a.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy'
+        Building CXX object CMakeFiles/cmTC_0fd8a.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_0fd8a.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_0fd8a.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_0fd8a.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_0fd8a
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd8a.dir/link.txt --verbose=1
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_0fd8a.dir/CheckFunctionExists.cxx.o -o cmTC_0fd8a
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-zDUdZy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_8f4c1/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_8f4c1.dir/build.make CMakeFiles/cmTC_8f4c1.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu'
+        Building CXX object CMakeFiles/cmTC_8f4c1.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_8f4c1.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_8f4c1.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_8f4c1.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_8f4c1
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f4c1.dir/link.txt --verbose=1
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_8f4c1.dir/CheckFunctionExists.cxx.o -o cmTC_8f4c1
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-XcU4Vu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_de89d/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_de89d.dir/build.make CMakeFiles/cmTC_de89d.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil'
+        Building CXX object CMakeFiles/cmTC_de89d.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_de89d.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_de89d.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_de89d.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_de89d
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de89d.dir/link.txt --verbose=1
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_de89d.dir/CheckFunctionExists.cxx.o -o cmTC_de89d
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-PAsYil'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_3348d/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_3348d.dir/build.make CMakeFiles/cmTC_3348d.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO'
+        Building CXX object CMakeFiles/cmTC_3348d.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_3348d.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_3348d.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_3348d.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_3348d
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3348d.dir/link.txt --verbose=1
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_3348d.dir/CheckFunctionExists.cxx.o -o cmTC_3348d
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-NUFJHO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_a5f81/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_a5f81.dir/build.make CMakeFiles/cmTC_a5f81.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8'
+        Building CXX object CMakeFiles/cmTC_a5f81.dir/CheckFunctionExists.cxx.o
+        /usr/bin/clang++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_a5f81.dir/CheckFunctionExists.cxx.o -MF CMakeFiles/cmTC_a5f81.dir/CheckFunctionExists.cxx.o.d -o CMakeFiles/cmTC_a5f81.dir/CheckFunctionExists.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a5f81
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5f81.dir/link.txt --verbose=1
+        /usr/bin/ld: cannot find -lICE: No such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/clang++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_a5f81.dir/CheckFunctionExists.cxx.o -o cmTC_a5f81   -L/opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib  -Wl,-rpath,/opt/software/linux-x86_64_v2/libx11-1.8.12-bp3pnncv2zlacorxal6sv74u7pkodkgl/lib -lICE
+        gmake[1]: *** [CMakeFiles/cmTC_a5f81.dir/build.make:103: cmTC_a5f81] Error 1
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-O5jBX8'
+        gmake: *** [Makefile:134: cmTC_a5f81/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:371 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "reco/CMakeLists.txt:1 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163"
+      binary: "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6;/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/opt/software/linux-x86_64_v2/qt-base-6.10.0-weipcjm5hvyz3pvwprd6fy6zjreqq3zs/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_b8556/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_b8556.dir/build.make CMakeFiles/cmTC_b8556.dir/build
+        gmake[1]: Entering directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163'
+        Building CXX object CMakeFiles/cmTC_b8556.dir/src.cxx.o
+        /usr/bin/clang++ -DHAVE_STDATOMIC  -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_b8556.dir/src.cxx.o -MF CMakeFiles/cmTC_b8556.dir/src.cxx.o.d -o CMakeFiles/cmTC_b8556.dir/src.cxx.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163/src.cxx
+        Linking CXX executable cmTC_b8556
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-2z47uddtszkgezsuyrv7wubnt5z5nqcm/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8556.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_b8556.dir/src.cxx.o -o cmTC_b8556
+        gmake[1]: Leaving directory '/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles/CMakeScratch/TryCompile-rMD163'
+        
+      exitCode: 0
+...

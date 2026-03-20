@@ -1,0 +1,7 @@
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib/LGADBeamTestPlugin.so
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib/libtestBeamACLGAD.components
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib/libtestBeamACLGAD.so
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/bin/thistestBeamACLGAD.sh
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/share/geometry/btTOF.xml
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/share/geometry/testBeamACLGAD.xml
+/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/share/geometry/calibrations/materials-map.cbor

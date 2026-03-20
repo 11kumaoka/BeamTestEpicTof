@@ -1,2 +1,4 @@
-set(__QT_DEPLOY_TARGET_TofCluPlugin_FILE /Users/tkumaoka/testEicShell/BeamTestTOF/TofClustering/build/TofCluPlugin.so)
-set(__QT_DEPLOY_TARGET_TofCluPlugin_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_LGADBeamTestPlugin_FILE /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco/LGADBeamTestPlugin.so)
+set(__QT_DEPLOY_TARGET_LGADBeamTestPlugin_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_testBeamACLGAD_FILE /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/geometry/libtestBeamACLGAD.so)
+set(__QT_DEPLOY_TARGET_testBeamACLGAD_TYPE SHARED_LIBRARY)
