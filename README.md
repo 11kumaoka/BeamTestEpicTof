@@ -2,22 +2,10 @@
 EIC Online Reconstruction for BeamTest
 
 ==== How to run ====
-
-run ./eic-shell
-
+```
+./eic-shell
 source /opt/detector/epic-main/bin/thisepic.sh
-
-cd BeamTestTOF/TofClustering/
-
-export EICrecon_MY=${PWD}/EICrecon_MY
-
-export CPATH="/opt/local/include/EICrecon:$CPATH"
-
-cd build
-
-cmake ..   -DJANA_DIR="$JANA_HOME/lib/cmake/JANA"   -DCMAKE_INSTALL_PREFIX="$EICrecon_MY"
-
-make install -j8
-
-eicrecon -Pplugins=TofCluPlugin  -Ppodio:output_collections="KumaTOFBarrelClusterHits"  -Pdd4hep:xml_files=epic_craterlake_tracking_only.xml ../../../input/output.root  -Pjana:nevents=5
-
+source envSet.sh
+source compile.sh
+eicrecon ../../inputFiles/TOFBarrelADCTDC_1_2_3.root   -Pjana:plugin_path=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib   -Pplugins=LGADBeamTestPlugin   -Ppodio:output_collections="KumaTOFBarrelCalibratedHits1,KumaTOFBarrelCalibratedHits2,KumaTOFBarrelCalibratedHits3,KumaTOFBarrelClusterHits1,KumaTOFBarrelClusterHits2,KumaTOFBarrelClusterHits3,KumaTOFTracks"   -Pdd4hep:xml_files=geometry/btTOF.xml -Ppodio:output_file=output/oEicrecon.root  -Pjana:nevents=5
+```

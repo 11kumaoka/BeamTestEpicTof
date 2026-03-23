@@ -65,6 +65,14 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
+    "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADHitCalibration_beamTest.h"
+    "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADHitClustering_beamTest.h"
+    "/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADTrack_beamTest.h"
+    )
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

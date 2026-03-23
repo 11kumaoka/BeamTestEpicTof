@@ -183,7 +183,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TofClustering
+CMAKE_PROJECT_NAME:STATIC=testBeamACLGAD
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -251,7 +251,7 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Set LD_LIBRARY_PATH when adding DD4hep plugins
-DD4HEP_LD_LIBRARY_PATH:STRING=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/.singularity.d/libs:/home/tkumaoka/eic/local/lib:/opt/local/lib:/opt/local/lib64
+DD4HEP_LD_LIBRARY_PATH:STRING=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/install/lib:/opt/software/linux-x86_64_v2/epic-git.d8739b9040219a8b4bfb215db2315b37a6e60aec_main-iytne5jf54aiwdktxw5al2n52zdkwkb3/lib:/.singularity.d/libs:/home/tkumaoka/eic/local/lib:/opt/local/lib:/opt/local/lib64
 
 //Set ROOT_LIBRARY_PATH when adding DD4hep plugins
 DD4HEP_ROOT_LIBRARY_PATH:STRING=/opt/local/lib
@@ -499,15 +499,6 @@ ROOT_rootmv_CMD:FILEPATH=/opt/local/bin/rootmv
 
 //Path to a program.
 ROOT_rootrm_CMD:FILEPATH=/opt/local/bin/rootrm
-
-//Value Computed by CMake
-TofClustering_BINARY_DIR:STATIC=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build
-
-//Value Computed by CMake
-TofClustering_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-TofClustering_SOURCE_DIR:STATIC=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering
 
 //Path to a file.
 VDT_INCLUDE_DIR:PATH=/opt/local/include
@@ -967,6 +958,15 @@ podio_DIR:PATH=/opt/local/lib/cmake/podio
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/opt/local/lib/cmake/spdlog
+
+//Value Computed by CMake
+testBeamACLGAD_BINARY_DIR:STATIC=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build
+
+//Value Computed by CMake
+testBeamACLGAD_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+testBeamACLGAD_SOURCE_DIR:STATIC=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering
 
 
 ########################

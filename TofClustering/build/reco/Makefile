@@ -175,6 +175,30 @@ LGADBeamTestPlugin/fast:
 	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/build
 .PHONY : LGADBeamTestPlugin/fast
 
+LGADBeamTestPlugin.o: LGADBeamTestPlugin.cc.o
+.PHONY : LGADBeamTestPlugin.o
+
+# target to build an object file
+LGADBeamTestPlugin.cc.o:
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o
+.PHONY : LGADBeamTestPlugin.cc.o
+
+LGADBeamTestPlugin.i: LGADBeamTestPlugin.cc.i
+.PHONY : LGADBeamTestPlugin.i
+
+# target to preprocess a source file
+LGADBeamTestPlugin.cc.i:
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.i
+.PHONY : LGADBeamTestPlugin.cc.i
+
+LGADBeamTestPlugin.s: LGADBeamTestPlugin.cc.s
+.PHONY : LGADBeamTestPlugin.s
+
+# target to generate assembly for a file
+LGADBeamTestPlugin.cc.s:
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.s
+.PHONY : LGADBeamTestPlugin.cc.s
+
 LGADHitCalibration_beamTest.o: LGADHitCalibration_beamTest.cc.o
 .PHONY : LGADHitCalibration_beamTest.o
 
@@ -247,30 +271,6 @@ LGADTrack_beamTest.cc.s:
 	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.s
 .PHONY : LGADTrack_beamTest.cc.s
 
-TofCluPlugin.o: TofCluPlugin.cc.o
-.PHONY : TofCluPlugin.o
-
-# target to build an object file
-TofCluPlugin.cc.o:
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o
-.PHONY : TofCluPlugin.cc.o
-
-TofCluPlugin.i: TofCluPlugin.cc.i
-.PHONY : TofCluPlugin.i
-
-# target to preprocess a source file
-TofCluPlugin.cc.i:
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.i
-.PHONY : TofCluPlugin.cc.i
-
-TofCluPlugin.s: TofCluPlugin.cc.s
-.PHONY : TofCluPlugin.s
-
-# target to generate assembly for a file
-TofCluPlugin.cc.s:
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build && $(MAKE) $(MAKESILENT) -f reco/CMakeFiles/LGADBeamTestPlugin.dir/build.make reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.s
-.PHONY : TofCluPlugin.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -284,6 +284,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... LGADBeamTestPlugin"
+	@echo "... LGADBeamTestPlugin.o"
+	@echo "... LGADBeamTestPlugin.i"
+	@echo "... LGADBeamTestPlugin.s"
 	@echo "... LGADHitCalibration_beamTest.o"
 	@echo "... LGADHitCalibration_beamTest.i"
 	@echo "... LGADHitCalibration_beamTest.s"
@@ -293,9 +296,6 @@ help:
 	@echo "... LGADTrack_beamTest.o"
 	@echo "... LGADTrack_beamTest.i"
 	@echo "... LGADTrack_beamTest.s"
-	@echo "... TofCluPlugin.o"
-	@echo "... TofCluPlugin.i"
-	@echo "... TofCluPlugin.s"
 .PHONY : help
 
 

@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LGADBeamTestPlugin.dir/link.d"
+  "CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o"
+  "CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o.d"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o.d"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitClustering_beamTest.cc.o"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitClustering_beamTest.cc.o.d"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.o"
   "CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.o.d"
-  "CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o"
-  "CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o.d"
   "LGADBeamTestPlugin.pdb"
   "LGADBeamTestPlugin.so"
 )

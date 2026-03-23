@@ -16,11 +16,11 @@
     <constant name="tb_aclgad_pitch_y" value="20.0*mm"/>
 
     <constant name="tb_aclgad_size_x" value="4.0*mm"/>
-    <constant name="tb_aclgad_size_y" value="40.0*mm"/>
+    <constant name="tb_aclgad_size_y" value="20.0*mm"/>
     <constant name="tb_aclgad_size_z" value="0.3*mm"/>
 
-    <constant name="tb_aclgad_pos_x" value="0.0*mm"/>
-    <constant name="tb_aclgad_pos_y" value="0.0*mm"/>
+    <constant name="tb_aclgad_pos_x" value="-2.0*mm"/>
+    <constant name="tb_aclgad_pos_y" value="-20.0*mm"/>
     <constant name="tb_aclgad_pos_z" value="0.0*mm"/>
   </define>
 

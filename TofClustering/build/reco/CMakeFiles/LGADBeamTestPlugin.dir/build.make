@@ -72,19 +72,19 @@ include reco/CMakeFiles/LGADBeamTestPlugin.dir/flags.make
 reco/CMakeFiles/LGADBeamTestPlugin.dir/codegen:
 .PHONY : reco/CMakeFiles/LGADBeamTestPlugin.dir/codegen
 
-reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o: reco/CMakeFiles/LGADBeamTestPlugin.dir/flags.make
-reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o: /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/TofCluPlugin.cc
-reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o: reco/CMakeFiles/LGADBeamTestPlugin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o"
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o -MF CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o.d -o CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/TofCluPlugin.cc
+reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o: reco/CMakeFiles/LGADBeamTestPlugin.dir/flags.make
+reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o: /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADBeamTestPlugin.cc
+reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o: reco/CMakeFiles/LGADBeamTestPlugin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o"
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o -MF CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o.d -o CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o -c /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADBeamTestPlugin.cc
 
-reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.i"
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/TofCluPlugin.cc > CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.i
+reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.i"
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADBeamTestPlugin.cc > CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.i
 
-reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.s"
-	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/TofCluPlugin.cc -o CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.s
+reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.s"
+	cd /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/build/reco && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADBeamTestPlugin.cc -o CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.s
 
 reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o: reco/CMakeFiles/LGADBeamTestPlugin.dir/flags.make
 reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o: /home/tkumaoka/eic/BeamTest/BeamTestEpicTof/TofClustering/reco/LGADHitCalibration_beamTest.cc
@@ -130,7 +130,7 @@ reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.s: cmake_force
 
 # Object files for target LGADBeamTestPlugin
 LGADBeamTestPlugin_OBJECTS = \
-"CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o" \
+"CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o" \
 "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o" \
 "CMakeFiles/LGADBeamTestPlugin.dir/LGADHitClustering_beamTest.cc.o" \
 "CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.o"
@@ -138,7 +138,7 @@ LGADBeamTestPlugin_OBJECTS = \
 # External object files for target LGADBeamTestPlugin
 LGADBeamTestPlugin_EXTERNAL_OBJECTS =
 
-reco/LGADBeamTestPlugin.so: reco/CMakeFiles/LGADBeamTestPlugin.dir/TofCluPlugin.cc.o
+reco/LGADBeamTestPlugin.so: reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADBeamTestPlugin.cc.o
 reco/LGADBeamTestPlugin.so: reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADHitCalibration_beamTest.cc.o
 reco/LGADBeamTestPlugin.so: reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADHitClustering_beamTest.cc.o
 reco/LGADBeamTestPlugin.so: reco/CMakeFiles/LGADBeamTestPlugin.dir/LGADTrack_beamTest.cc.o
