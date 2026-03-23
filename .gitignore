@@ -63,3 +63,8 @@
 # IDE
 .vscode/
 .idea/
+
+build/
+install/
+output/
+
